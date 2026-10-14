@@ -1,4 +1,5 @@
 """Sistema di gestione di una piccola biblioteca."""
+# Progetto didattico
 
 libri = []
 
