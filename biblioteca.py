@@ -11,7 +11,8 @@ def aggiungi_libro(titolo, autore):
 def lista_libri():
     for libro in libri:
         stato = "prestato" if libro["prestato"] else "disponibile"
-        print(f"{libro['titolo']} → {'PRESTATO' if libro['prestato'] else 'libero'}")
+        print(f"[{libro['titolo']}] {libro['autore']} - stato: {libro['prestato']}")
+
 
 def cerca_libro(titolo):
     for libro in libri:
